@@ -23,7 +23,7 @@ def getConnection():
         connection=mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Gourav@sachdev1",
+            password="password",
             database="dataweave",
         )
     except Error as e:
